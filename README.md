@@ -130,7 +130,7 @@ void loop()
 }
 ```
 
-> Yukarıdaki örnek kodu içeren .ino dosyası: [`PT6523/examples/Voltage_level/Voltage_level.ino`](examples/Voltage_level/Voltage_level.ino)
+> Yukarıdaki örnek kodu içeren .ino dosyası: [`PT6523/examples/Voltage_Level/Voltage_Level.ino`](examples/Voltage_Level/Voltage_Level.ino)
 
 ### int textLoopCount()
 
@@ -171,7 +171,7 @@ void loop()
 }
 ```
 
-> Yukarıdaki örnek kodu içeren .ino dosyası: [`PT6523/examples/PT6523_symbols/PT6523_symbols.ino`](examples/Symbols/Symbols.ino)
+> Yukarıdaki örnek kodu içeren .ino dosyası: [`PT6523/examples/Symbols/Symbols.ino`](examples/Symbols/Symbols.ino)
 
 Tüm sembol sabitleri aşağıda verilmiştir.
 
@@ -293,7 +293,7 @@ void loop()
 
 ![image_3]()
 
-> Yukarıdaki örnek kodu içeren .ino dosyası: [`PT6523/examples/Voltage_level/Voltage_level.ino`](examples/Voltage_level/Voltage_level.ino)
+> Yukarıdaki örnek kodu içeren .ino dosyası: [`PT6523/examples/Voltage_Level/Voltage_Level.ino`](examples/Voltage_Level/Voltage_Level.ino)
 
 ### void levelDirection(direction d)
 
