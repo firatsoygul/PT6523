@@ -1,8 +1,8 @@
 /*
-  LC75823 Library for Arduino.
+  PT6523 Library for Arduino.
   Created by Fırat SOYGÜL, 20 Aralık 2017
   GNU General Public License v3.0
-  (https://github.com/firatsoygul/LC75823/blob/master/LICENSE)
+  (https://github.com/firatsoygul/PT6523/blob/master/LICENSE)
 */
 
 #ifndef PT6523_h

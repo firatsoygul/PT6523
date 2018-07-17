@@ -4,7 +4,7 @@ Arduino için PT6523 lcd sürücü kütüphanesi.
 
 > Bu kütüphaneyi, KAMOSONIC marka eski bir araba kasetçalarının ön panelinde bulunan ekranı kullanarak oluşturdum. Büyük ihtimalle benim çalıştığım panelin aynısına sahip olmayacaksınız. Sizin sahibi olduğunuz lcd paneli, tamamen kendine özel alanlar içerebilir. Aynı bendeki panelde olduğu gibi. Ancak PT6523 entegresi ile birebir uyumlu olduğundan, segment ve sembol datalarını kendi kartınıza göre düzenleyerek, bu sürücü ile tasarlanmış diğer lcd paneller için de kullanılabilirsiniz.
 
-![image_1]()
+
 
 ## KURULUM
 
@@ -25,13 +25,14 @@ Dosyaları yerleştirdikten sonra, açık olan bütün Arduino IDE'leri kapatın
 
 Bu kütüphane SPI bağlantısı için standart Arduino SPI kütüphanesini kullanır. Bu nedenle;
 
-- Data hattını Arduino 11 nolu pine (veya ICSP soketi üzerindeki 4 nolu MOSI pinine),
+- Data girişini Arduino 11 nolu pine (veya ICSP soketi üzerindeki 4 nolu MOSI pinine),
 - CLK'yı ise Arduino 13 nolu pine (veya ICSP soketi üzerindeki 3 nolu SCK pinine),
 - FCE (ChipEnabled, SlaveSelect) girişini Arduino 10 nolu pine bağlamak gerekiyor.
+- INH girişini ise +5v. akımla beslemelisiniz.
 
 Bu pinler Arduino Uno modeli için geçerli. Diğer Arduino modelleri için [bu sayfadaki tabloya](https://www.arduino.cc/en/Reference/SPI) bakabilirsiniz. FCE (ChipEnabled, SlaveSelect) girişini ise bütün modellerde Arduino 10 nolu pine bağlıyoruz. Veya `begin(<SlaveSelect pin>, <adres>)` fonksiyonundaki parametreyi başka bir pine ayarlayabilirsiniz. Bağlantı şeması görseldeki gibi olmalıdır.
 
-![image_2](https://raw.githubusercontent.com/firatsyg/PT6523/master/img/baglanti.jpg?raw=true)
+![Baglanti](https://raw.githubusercontent.com/firatsyg/PT6523/master/img/baglanti.jpg?raw=true)
 
 ## KULLANIMI
 
@@ -350,10 +351,6 @@ Sürücü güç tasarrufu (power saving) moduna geçer. Sürücü içindeki osil
 
 Güç tasarrufu (power saving) modunda bulunan sürücüyü normal çalışma moduna geçirir.
 
-![Sample_1]()
+![Image_1](https://raw.githubusercontent.com/firatsyg/PT6523/master/img/IMG_0101.JPG?raw=true)
 
-
-![Sample_2]()
-
-
-![Pins]()
+![Sample_2](https://raw.githubusercontent.com/firatsyg/PT6523/master/img/IMG_0103.JPG?raw=true)
