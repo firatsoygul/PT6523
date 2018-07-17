@@ -4,7 +4,7 @@ Arduino için PT6523 lcd sürücü kütüphanesi.
 
 > Bu kütüphaneyi, KAMOSONIC marka eski bir araba kasetçalarının ön panelinde bulunan ekranı kullanarak oluşturdum. Büyük ihtimalle benim çalıştığım panelin aynısına sahip olmayacaksınız. Sizin sahibi olduğunuz lcd paneli, tamamen kendine özel alanlar içerebilir. Aynı bendeki panelde olduğu gibi. Ancak PT6523 entegresi ile birebir uyumlu olduğundan, segment ve sembol datalarını kendi kartınıza göre düzenleyerek, bu sürücü ile tasarlanmış diğer lcd paneller için de kullanılabilirsiniz.
 
-
+![image_a](https://raw.githubusercontent.com/firatsyg/PT6523/master/img/pt6523_a.jpg?raw=true)
 
 ## KURULUM
 
@@ -32,7 +32,7 @@ Bu kütüphane SPI bağlantısı için standart Arduino SPI kütüphanesini kull
 
 Bu pinler Arduino Uno modeli için geçerli. Diğer Arduino modelleri için [bu sayfadaki tabloya](https://www.arduino.cc/en/Reference/SPI) bakabilirsiniz. FCE (ChipEnabled, SlaveSelect) girişini ise bütün modellerde Arduino 10 nolu pine bağlıyoruz. Veya `begin(<SlaveSelect pin>, <adres>)` fonksiyonundaki parametreyi başka bir pine ayarlayabilirsiniz. Bağlantı şeması görseldeki gibi olmalıdır.
 
-![Baglanti](https://raw.githubusercontent.com/firatsyg/PT6523/master/img/baglanti.jpg?raw=true)
+![image_baglanti](https://raw.githubusercontent.com/firatsyg/PT6523/master/img/baglanti.jpg?raw=true)
 
 ## KULLANIMI
 
@@ -291,7 +291,7 @@ void loop()
 }
 ```
 
-![image_3]()
+![image_volt](https://raw.githubusercontent.com/firatsyg/PT6523/master/img/pt6523_c.jpg?raw=true)
 
 > Yukarıdaki örnek kodu içeren .ino dosyası: [`PT6523/examples/Voltage_Level/Voltage_Level.ino`](examples/Voltage_Level/Voltage_Level.ino)
 
@@ -351,6 +351,6 @@ Sürücü güç tasarrufu (power saving) moduna geçer. Sürücü içindeki osil
 
 Güç tasarrufu (power saving) modunda bulunan sürücüyü normal çalışma moduna geçirir.
 
-![Image_1](https://raw.githubusercontent.com/firatsyg/PT6523/master/img/IMG_0101.JPG?raw=true)
+![image_symbols](https://raw.githubusercontent.com/firatsyg/PT6523/master/img/pt6523_b.jpg?raw=true)
 
-![Sample_2](https://raw.githubusercontent.com/firatsyg/PT6523/master/img/IMG_0103.JPG?raw=true)
+![Sample_2](https://raw.githubusercontent.com/firatsyg/PT6523/master/img/pt6523_d.jpg?raw=true)
