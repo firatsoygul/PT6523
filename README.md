@@ -1,10 +1,12 @@
 # Arduino library for PT6523
 
-Arduino için PT6523 lcd sürücü kütüphanesi.
+Arduino için PT6523 lcd sürücü kütüphanesi.  
 
-> Bu kütüphaneyi, KAMOSONIC marka eski bir araba kasetçalarının ön panelinde bulunan ekranı kullanarak oluşturdum. Büyük ihtimalle benim çalıştığım panelin aynısına sahip olmayacaksınız. Sizin sahibi olduğunuz lcd paneli, tamamen kendine özel alanlar içerebilir. Aynı bendeki panelde olduğu gibi. Ancak PT6523 entegresi ile birebir uyumlu olduğundan, segment ve sembol datalarını kendi kartınıza göre düzenleyerek, bu sürücü ile tasarlanmış diğer lcd paneller için de kullanılabilirsiniz.
+Bu kütüphaneyi aynı zamanda CT6523, LC75823, SC6523, RSM6523, LF6523, HXJ6523, LP75823, SL4816, SWE75823, ZL75823, TM75823, SJ75823, CS1685, ADS75823, AX75823, CS75823, LS75823, PM1725, PS75823, SC75823 sürücülerinde de kullanabilirsiniz.  
 
-![image_a](https://raw.githubusercontent.com/firatsyg/PT6523/master/img/pt6523_a.jpg?raw=true)
+> Bu kütüphaneyi, KAMOSONIC marka eski bir araba kasetçalarının ön panelinde bulunan ekranı kullanarak oluşturdum. Büyük ihtimalle benim çalıştığım panelin aynısına sahip olmayacaksınız. Sizin sahibi olduğunuz lcd paneli, tamamen kendine özel alanlar içerecektir. Ancak yukarıdaki sürücülerin herhangi birini içerdiği sürece, segment ve sembol datalarını kendi kartınıza göre düzenleyerek, diğer lcd paneller için de kullanılabilirsiniz. Örnek olarak LC75823 sürücüsü kullanan başka bir lcd panel için düzenlenmiş halini, [bu sayfada](https://github.com/firatsoygul/LC75823) inceleyebilirsiniz.  
+
+![image_a](https://raw.githubusercontent.com/firatsyg/PT6523/master/img/pt6523_a.jpg?raw=true)  
 
 ## KURULUM
 
